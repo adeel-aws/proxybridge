@@ -24,6 +24,7 @@ ProxyBridge sets up a public EC2 instance as a Squid proxy that routes traffic t
 ## Screenshots
 
 ### Terraform Plan & Apply
+![Architecture-Diagram](screenshots/Architecture diagram.png) 
 ![Running-Instances](screenshots/Instances.png)  
 ![Terraform](screenshots/Terraform.png)  
 
