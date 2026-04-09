@@ -27,4 +27,3 @@ environment = "Dev"
 # Private EC2
 
 instance_name2 = "Private-Instance"
-user_data2 = "#!/bin/bash && apt update -y && apt install -y nginx && systemctl enable nginx && systemctl start nginx"

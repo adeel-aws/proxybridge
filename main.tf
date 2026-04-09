@@ -41,6 +41,6 @@ module "ec2-V2" {
   instance_name     = var.instance_name2
   enable_ssm        = var.enable_ssm
   environment       = var.environment
-  user_data         = var.user_data2
+  user_data         = file("./Nginx.sh")
   
 }

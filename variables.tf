@@ -72,9 +72,6 @@ variable "environment" {
 
 # Private EC2 module"s variables
 
-variable "user_data2" {
-  type = string
-}
 variable "instance_name2" {
   type = string
 }
